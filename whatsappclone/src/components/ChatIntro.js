@@ -4,10 +4,9 @@ import './ChatIntro.css';
 export default () => {
     return (
         <div className="chatIntro">
-            Hello World! Juliana
-            <img src="https://www.w3schools.com/w3images/avatar4.png" alt="" />
-            <h1>frase 1</h1>
-            <h2>frase 2</h2>
+            <img src="https://web.whatsapp.com/img/intro-connection-light_c98cc75f2aa905314d74375a975d2cf2.jpg" alt="" />
+            <h1>Mantenha seu celular conectado</h1>
+            <h2>O WhatsApp conecta ao seu telefone para sincronizar suas mensagens.<br/>Para reduzir o uso de dados, conecte seu telefone a uma rede Wi-Fi.</h2>
         </div>
     ); 
 }
