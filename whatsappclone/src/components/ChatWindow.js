@@ -1,4 +1,5 @@
 import React from "react";
+import EmojiPiker from 'emoji-piker-react';
 import './ChatWindow.css';
 
 import SearchIcon from '@material-ui/icons/Search';
@@ -32,8 +33,18 @@ export default () => {
             <div className="chatWindow--body">
 
             </div>
+
+            <div className="chatWindow--emojiarea">
+                <EmojiPiker 
+                    
+                />
+            </div>
+
             <div className="chatWindow--footer">
                 <div className="chatWindow--pre">
+                    <div className="chatWindow--btn">
+                        <CloseIcon style={{ color: '#919191' }} />
+                    </div>
                     <div className="chatWindow--btn">
                         <InsertEmoticonIcon style={{ color: '#919191' }} />
                     </div>
