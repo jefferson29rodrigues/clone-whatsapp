@@ -16,7 +16,7 @@ export default () => {
     {
       chatId: 1,
       title: 'Fulano de Tal',
-      image: 'https://www.w3schools.com/w3images/avatar4.png',
+      image: 'https://www.w3schools.com/w3images/avatar6.png',
     },
     {
       chatId: 2,
@@ -26,13 +26,73 @@ export default () => {
     {
       chatId: 3,
       title: 'Fulano de Tal3',
-      image: 'https://www.w3schools.com/w3images/avatar4.png',
+      image: 'https://www.w3schools.com/w3images/avatar3.png',
     },
     {
       chatId: 4,
       title: 'Fulano de Tal4',
+      image: 'https://www.w3schools.com/w3images/avatar2.png',
+    },
+    {
+      chatId: 5,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar6.png',
+    },
+    {
+      chatId: 6,
+      title: 'Outros Fulano de Tal',
       image: 'https://www.w3schools.com/w3images/avatar4.png',
     },
+    {
+      chatId: 7,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar3.png',
+    },
+    {
+      chatId: 8,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar2.png',
+    },
+    {
+      chatId: 9,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar6.png',
+    },
+    {
+      chatId: 10,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar4.png',
+    },
+    {
+      chatId: 11,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar3.png',
+    },
+    {
+      chatId: 12,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar2.png',
+    },
+    {
+      chatId: 13,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar6.png',
+    },
+    {
+      chatId: 14,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar4.png',
+    },
+    {
+      chatId: 15,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar3.png',
+    },
+    {
+      chatId: 16,
+      title: 'Outros Fulano de Tal',
+      image: 'https://www.w3schools.com/w3images/avatar2.png',
+    }
   ]);
   const [activeChat, setActiveChat] = useState({});
 
