@@ -1,4 +1,5 @@
 import React from "react";
+import EmojiPiker from 'emoji-picker-react';
 import './ChatWindow.css';
 
 import SearchIcon from '@material-ui/icons/Search';
@@ -34,7 +35,9 @@ export default () => {
             </div>
 
             <div className="chatWindow--emojiarea">
-              
+                <EmojiPiker
+                    
+                />
             </div>
 
             <div className="chatWindow--footer">
