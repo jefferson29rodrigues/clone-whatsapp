@@ -1,1 +1,3 @@
-hello world routes
+
+
+routes.get('/', ['home' => home])
